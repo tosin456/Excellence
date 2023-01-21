@@ -81,6 +81,10 @@ html, body{
     
 }
 
+.gg{
+    display: none;
+}
+
 .guide{
     position: absolute;
     left: 8%;
@@ -121,14 +125,18 @@ html, body{
    } */
     .hd{
         font-size: 1rem;
+        text-align: center;
     }
    .container{
-    position: fixed;
+    right: 5%;
+    width: 200px;
    }
 
    #inputField{
-    width: 10rem;
+    width: 15rem;
     height: 40px;
+    position: relative;
+    right:40%;
     font-size: 16px;
 }
 
@@ -137,10 +145,13 @@ html, body{
 } */
 
 #addToDo{
-    height: 42px;
-    width: 40px;
+    height: 40.5px;
+    width: 42px;
     font-size: 30px;
     font-size: 2rem;
+    position: absolute;
+    top: 73%;
+    right: 20%;
 }
 
 #addToDo:hover{
@@ -155,26 +166,57 @@ html, body{
     font-size: 18px;
     padding: .4rem;
     margin: 1rem 0;
-    width: 12.5rem;
+    width: 17rem;
     word-break: break-word;
+    position: relative;
+    right: 40%;
+    
     
 }
 
+.gg{
+    display: block;
+    background-color: grey;
+    padding: 1rem;
+    height: 7rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    text-align: center;
+   
+}
+
+.head{
+    font-size: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 24%;
+    right: 45%;
+}
+
+.g{
+    font-size: 0.6rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 18%;
+}
+
 .guide{
-    position: fixed;
+    /* position: fixed;
     padding: 1rem;
     left: 8%;
     top: 20%;
     width: 3rem;
     height: 6rem;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 0.5rem; */
+    display: none;
    
     
     
 }
 
-.guide p{
+/* .guide p{
     position: absolute;
     top: 25%;
     right: 6%;
@@ -184,7 +226,7 @@ html, body{
     position: absolute;
     top: 9%;
     right: 27%;
-}
+} */
 
 
   
