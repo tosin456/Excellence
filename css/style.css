@@ -165,10 +165,11 @@ html, body{
     font-size: 18px;
     padding: .4rem;
     margin: 1rem 0;
-    width: 17rem;
+    width: 15rem;
     word-break: break-word;
-    position: relative;
-    right: 40%;
+    position: fixed;
+    right: 12%;
+    top: 60%;
     
     
 }
