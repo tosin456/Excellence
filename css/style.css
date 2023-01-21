@@ -133,11 +133,12 @@ html, body{
    }
 
    #inputField{
-    width: 12.7rem;
+    width: 15rem;
     height: 40px;
     position: absolute;
     right:60%;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /* #newTask{
@@ -163,13 +164,14 @@ html, body{
 
 .paragraph-styling{
     font-size: 18px;
-    padding: .4rem;
-    margin: 1rem 0;
-    width: 15rem;
+    padding-top: 5rem;
+    margin: 1rem;
+    width: 17rem;
     word-break: break-word;
-    position: fixed;
-    right: 12%;
-    top: 60%;
+    line-height: 1rem;
+    position: relative;
+    right: 33%;
+    
     
     
 }
