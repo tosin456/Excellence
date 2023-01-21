@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    
+
+}
+
+
+html, body{
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+    
+}
+
+
+.container{
+    width: 360px;
+   
+}
+   
+ #newTask input:focus{
+    outline: none;
+    border: 1.9px solid black;
+    
+ }   
+
+#inputField{
+    width: 300px;
+    height: 48px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    
+}
+
+
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+    font-size: 2.3rem;
+}
+
+#addToDo:hover{
+    color: white;
+    font-size: 2.7rem;
+}
+
+.to-dos{
+    margin-top: 25px;
+    /* border: 1px solid black;
+    line-height: 2rem;
+    padding: 1rem;
+    width: 19.9rem; */
+    
+    
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding: .5rem;
+    text-shadow: 1px 3px 4px darkgray;
+    line-height: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    word-break: break-word;
+    
+    
+}
+
+.guide{
+    position: absolute;
+    left: 8%;
+    background-color: lightgrey;
+    padding: 1rem;
+    border-radius: 20px;
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    width: 5rem;
+    height: 8rem;
+    font-size: 0.59rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.guide p{
+    padding: 0.3rem;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.guide h1{
+    position: absolute;
+    top: 8%;
+    right: 26%;
+}
+
+
+
+/* MOBILE DEVICES */
+@media screen  and (max-width:480px) {
+   /* body{
+    position: fixed;
+   } */
+    .hd{
+        font-size: 1rem;
+    }
+   .container{
+    position: fixed;
+   }
+
+   #inputField{
+    width: 10rem;
+    height: 40px;
+    font-size: 16px;
+}
+
+/* #newTask{
+    width: 60px;
+} */
+
+#addToDo{
+    height: 42px;
+    width: 40px;
+    font-size: 30px;
+    font-size: 2rem;
+}
+
+#addToDo:hover{
+    font-size: 2rem;
+}
+
+/* .to-dos{
+    margin-top: 2px;
+} */
+
+.paragraph-styling{
+    font-size: 18px;
+    padding: .4rem;
+    margin: 1rem 0;
+    width: 12.5rem;
+    word-break: break-word;
+    
+}
+
+.guide{
+    position: fixed;
+    padding: 1rem;
+    left: 8%;
+    top: 20%;
+    width: 3rem;
+    height: 6rem;
+    text-align: center;
+    font-size: 0.5rem;
+   
+    
+    
+}
+
+.guide p{
+    position: absolute;
+    top: 25%;
+    right: 6%;
+}
+
+.guide h1{
+    position: absolute;
+    top: 9%;
+    right: 27%;
+}
+
+
+  
+    
+
+
+}
