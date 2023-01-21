@@ -128,8 +128,8 @@ html, body{
         text-align: center;
     }
    .container{
-    right: 5%;
-    width: 200px;
+    position: fixed;
+   
    }
 
    #inputField{
@@ -181,7 +181,7 @@ html, body{
     height: 7rem;
     border-radius: 10px;
     margin-bottom: 3rem;
-    text-align: center;
+    /* text-align: center; */
    
 }
 
