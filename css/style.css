@@ -133,10 +133,11 @@ html, body{
    }
 
    #inputField{
-    width: 15rem;
+    width: 16rem;
+    margin-bottom: 9rem;
     height: 40px;
-    position: absolute;
-    right:60%;
+    position: fixed;
+    right:20%;
     font-size: 16px;
     cursor: pointer;
 }
@@ -146,12 +147,12 @@ html, body{
 } */
 
 #addToDo{
-    height: 41.3px;
+    height: 41px;
     width: 42px;
     font-size: 30px;
     font-size: 2rem;
     position: absolute; 
-    right: 48.4%;
+    right: 44.5%;
 }
 
 #addToDo:hover{
@@ -163,14 +164,26 @@ html, body{
 } */
 
 .paragraph-styling{
-    font-size: 18px;
-    padding-top: 5rem;
-    margin: 1rem;
-    width: 17rem;
+    /* font-size: 18px;
+    padding: 0.8rem; */
+    /* padding-top: 4rem; */
+    /* margin: 1rem 0; */
+    /* width: 17rem;
     word-break: break-word;
+    position: fixed;
+    top: 50%; */
+    /* margin: 0; */
+    cursor: pointer;
+    font-size: 20px;
+    padding: .4rem;
+    text-shadow: 1px 3px 4px darkgray;
     line-height: 1rem;
-    position: relative;
-    right: 33%;
+    /* margin: 1.5rem 0; */
+    margin-right: 10px;
+    width: 100%;
+    word-break: break-word;
+    
+    
     
     
     
